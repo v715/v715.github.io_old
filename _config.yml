@@ -1,29 +1,29 @@
+--- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # Site settings
-# -----------------------------------------------------------------------------
-name: Mayank Mittal
-email: mittalma@student.ethz.ch
+name: Vivek Gopalakrishnan
+email: vgopala4@jhu.edu
 description: > # this means to ignore newlines until "url:"
-  A simple website for a Robotics Enthusiast.
+  A simple website for a Bio + ML enthusiast.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url: # the base hostname & protocol for your site
-baseurl:   # the subpath of your site, e.g. /blog/
+url: #
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # google-analytics
-google_analytics: UA-92958928-1
-repo: http://github.com/Mayankm96
+google_analytics:
+repo: http://github.com/v715
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: Mayankm96 # put your github username
+github_username: v715 # put your github username
 twitter_username: # put your twitter username
-linkedin_username: mayankm-0096 # put your linkedin username
-scholar_authorid: iVXG-IkAAAAJ # put your google scholar author id
+linkedin_username: v715 # put your linkedin username
+scholar_authorid: kYGmJpAAAAAJ # put your google scholar author id
 contact_note: #  You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
@@ -39,16 +39,16 @@ paginate_path: /blog/page:num/
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: "Newer"
+    older: "Older"
 
 # Comments
-disqus_shortname: mayankm-96 # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 
 # Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
+show_social_icons: false
+enable_anchorjs: false
+enable_katex: true
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -74,18 +74,17 @@ markdown: kramdown
 highlighter: pygments
 
 # Includes
-include: ['_pages']
+include: ["_pages"]
 
 # plugins
 plugins:
-    - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
+  - jekyll-paginate
+  - jekyll/scholar
+  - jemoji
 
 # Jekyll-Scholar
 scholar:
-
-  last_name: Mittal
+  last_name: Gopalakrishnan
 
   style: apa
   locale: en
