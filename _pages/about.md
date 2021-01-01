@@ -25,7 +25,7 @@ We are building a dynamic fusion image guidance system for minimally invasive he
 ---
 
 {: #publications}
-#### __Selected Publications__
+### __Selected Publications__
 
 {% for y in page.years %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
