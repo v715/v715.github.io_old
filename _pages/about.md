@@ -7,7 +7,7 @@ description: Biomedical Data Science @ <a href="http://bme.jhu.edu/" target="_bl
 profile:
   align: right
   image: prof_pic.jpg
-  address: false
+  address: Nova Scotia, 2019
 
 news: false
 years: [2020, 2019]
@@ -25,7 +25,7 @@ We are building a dynamic fusion image guidance system for minimally invasive he
 ---
 
 {: #publications}
-### __Selected Publications__
+### _Selected Publications_
 
 {% for y in page.years %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
