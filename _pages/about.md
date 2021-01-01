@@ -1,43 +1,31 @@
 ---
 layout: about
+title: Vivek Gopalakrishnan
 permalink: /
-title: <strong>Mayank</strong> Mittal
-description: Graduate Student | Robotics, Systems, and Control, ETH Zurich
+description: Biomedical Data Science @ <a href="http://bme.jhu.edu/" target="_blank">JHU BME</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: #mention address
+  address: false
 
-news: true
+news: false
+years: [2020, 2019]
 social: true
-years: [2020, 2019, 2018]
 ---
 
-I am a graduate student in the Robotics, Systems, and Controls program at ETH Zurich.
-As a part of the [Robotic Systems Lab](https://rsl.ethz.ch/), headed by
-[Marco Hutter](http://www.rsl.ethz.ch/the-lab/people/person-detail.html?persid=121911),
-I work on learning robot control for mobile manipulators.
+I am a combined BS/MSE student in the Department of Biomedical Engineering at Johns Hopkins University.
 
-Over the past few years, I have been fortunate to work on a variety of robotic systems. Most of my time
-during my undergrad was spent developing autonomous underwater vehicles and co-founding the institute's [AUV team](https://auviitk.com).
-During the summer of 2017, I worked with [Abhinav Valada](http://www2.informatik.uni-freiburg.de/~valada/) and [Wolfram Burgard](http://www2.informatik.uni-freiburg.de/~burgard/) at the University of Freiburg, Germany on building autonomous aerial systems for urban search and rescue. Most recently, my internship at [NNAISENSE](https://nnaisense.com/) involved safe-grasping of objects using manipulators.
+My research focuses on developing machine learning methods to analyze multi-subject neuroimaging data (advised by [Dr. Joshua T. Vogelstein](https://jovo.me) and [Dr. Carey E. Priebe](https://www.ams.jhu.edu/~priebe/).
+Currently, I am building a Random Forest (RF)-based computer vision algorithm to perform robust and interpretable brain tumor segmentation.
 
-If you have any questions or would like to collaborate, feel free to reach out through
-[email](mailto:mittalma@ethz.ch)!
-
-<div class="post">
-
-  {% if page.news %}
-    {% include news.html %}
-  {% endif %}
-
-</div>
+I also lead a Design Team of undergraduate biomedical engineers (advised by [Dr. Elizabeth Logsdon](https://www.bme.jhu.edu/faculty_staff/elizabeth-logsdon-phd/) and [Dr. Rani Hasan](https://www.hopkinsmedicine.org/profiles/results/directory/profile/1571333/rani-hasan)). 
+We are building a dynamic fusion image guidance system for minimally invasive heart surgery.
 
 ---
 
 {: #publications}
-## __publications__
+#### __Selected Publications__
 
 {% for y in page.years %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
