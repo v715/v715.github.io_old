@@ -13,19 +13,19 @@
     {% if entry.type == "thesis" %}
     {{reference}}
     {% else %}
-    <span class="title">{{entry.title}}</span>
+    <strong><em>{{entry.title}}</em></strong>
     <span class="author">
       {% for author in entry.author_array %}
       {% if forloop.length == 1 %}
       {% if author.last == site.scholar.last_name %}
-      <em><b>{{author.first}} {{author.last}}</b></em>
+      <u>{{author.first}} {{author.last}}</u>
       {% else %}
       {{author.first}} {{author.last}}
       {% endif %}
       {% else %}
       {% unless forloop.last %}
       {% if author.last == site.scholar.last_name %}
-      <em><b>{{author.first}} {{author.last}}</b></em>,
+      <u>{{author.first}} {{author.last}}</u>,
       {% else %}
       {% if site.data.coauthors[author.last] %}
       <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,
@@ -50,11 +50,11 @@
 
     <span class="periodical">
       {% if entry.type == "article" %}
-      <em>{{entry.journal}}</em>
+      <em>{{entry.journal}}</em>,
       {% elsif entry.type == "inproceedings" %}
-      <em>{{entry.booktitle}}</em>
+      <em>{{entry.booktitle}}</em>,
       {% elsif entry.type == "workshop" %}
-      <em>{{entry.booktitle}}</em>
+      <em>{{entry.booktitle}}</em>,
       <br>
       <em>{{entry.maintitle}}</em>
       {% elsif entry.type == "preprint" %}
