@@ -1,11 +1,14 @@
-landing:
-  img: teasers/landing.png
+mcc:
+  img: teasers/mcc.png
 
-miscalib:
-  img: teasers/miscalib.png
+dnd:
+  img: teasers/dnd.png
 
-vision_uav:
-  img: teasers/vision_uav.png
+prehaartcd4:
+  img: teasers/prehaartcd4.png
 
-lyap_mpc:
-  img: teasers/lyap_mpc.png
+hivml:
+  img: teasers/hivml.png
+
+dukemice:
+  img: teasers/dukemice.png
