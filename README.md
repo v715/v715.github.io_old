@@ -8,7 +8,9 @@ Based on
 
 ## Installation
 1. Install Ruby v2.6.5 (see [here](https://stackoverflow.com/questions/36485180/how-to-update-ruby-with-homebrew) for `rb-env` instructions)
-2. Run `bundle install`
-3. Run `bundle exec jekyll serve`
-4. Make edits
-5. Deploy by running `make site`
+2. Install bundler with `gem install bundler`
+3. CD into site folder
+4. Run `bundle install`
+5. Run `bundle exec jekyll serve`
+6. Make edits
+7. Deploy by running `make site`
