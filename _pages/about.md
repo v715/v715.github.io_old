@@ -10,7 +10,7 @@ profile:
   address: Nova Scotia, 2019
 
 news: false
-years: [2020, 2019]
+years: [2021, 2020, 2019]
 social: true
 ---
 
