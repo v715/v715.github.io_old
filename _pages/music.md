@@ -3,8 +3,6 @@ layout: page
 title: Music
 permalink: /music/
 description: a cappella, a cappella, a cappella
-
-news: true
 ---
 
 {% for project in site.projects %}
