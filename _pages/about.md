@@ -15,10 +15,10 @@ social: true
 ---
 
 I am an incoming PhD student in Medical Engineering and Medical Physics at the Harvard-MIT Program in Health Sciences and Technology.
-I concentrate on the development of machine learning methods for complex problems in healthcare, with interest in applications to cardiovascular disease and algorithmic fairness.
+I develop machine learning methods for complex problems in healthcare, and am currently studying applications in cardiovascular disease.
 
-I obtained BS and MSE from the Department of Biomedical Engineering at Johns Hopkins University in 2021.
-My past research has focused on the development of machine learning methods to analyze multi-subject neuroimaging data (advised by [Dr. Joshua T. Vogelstein](https://jovo.me) and [Dr. Carey E. Priebe](https://www.ams.jhu.edu/~priebe/)). Most recently, I developed statistical graph theory algorithms to perform biomarker discovery in network-valued maps of the brain. I also led a Design Team of undergraduate biomedical engineers (advised by [Dr. Elizabeth Logsdon](https://www.bme.jhu.edu/people/faculty/elizabeth-logsdon/) and [Dr. Rani Hasan](https://www.hopkinsmedicine.org/profiles/results/directory/profile/1571333/rani-hasan)). 
+I obtained my BS and MSE from the Department of Biomedical Engineering at Johns Hopkins University in 2021.
+My past research has focused on the development of machine learning methods to analyze multi-subject neuroimaging data (advised by [Dr. Joshua T. Vogelstein](https://jovo.me) and [Dr. Carey E. Priebe](https://www.ams.jhu.edu/~priebe/)). Most recently, I developed statistical graph theory algorithms to perform biomarker discovery in network-valued maps of the brain. I also led a Design Team of undergraduate biomedical engineers (advised by [Dr. Elizabeth Logsdon](https://www.bme.jhu.edu/people/faculty/elizabeth-logsdon/) and [Dr. Rani Hasan](https://www.hopkinsmedicine.org/profiles/results/directory/profile/1571333/rani-hasan)).
 We built a dynamic fusion image guidance system for minimally invasive heart surgery.
 
 ---
