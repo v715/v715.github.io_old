@@ -14,7 +14,7 @@ years: [2021, 2020, 2019]
 social: true
 ---
 
-I am an incoming PhD student in the Harvard-MIT Health Sciences and Technology Program.
+I am an incoming PhD student in Medical Engineering and Medical Physics at the Harvard-MIT Program in Health Sciences and Technology.
 I concentrate on the development of machine learning methods for complex problems in healthcare, with interest in applications to cardiovascular disease and algorithmic fairness.
 
 I obtained BS and MSE from the Department of Biomedical Engineering at Johns Hopkins University in 2021.
